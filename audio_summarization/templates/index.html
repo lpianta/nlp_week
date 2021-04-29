@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %}
+<h1>Audio Transcription</h1>
+
+<p>Please upload an audio file (maximum 2 mins)</p>
+
+<form action="/file_upload" method="post" enctype="multipart/form-data">
+  <input type="file" id="myfile" name="file_1" />
+  <input class="" type="submit" />
+</form>
+{% endblock content %}

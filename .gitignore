@@ -3,3 +3,5 @@ data/
 .vscode
 __pycache__
 *.pth
+.ipynb_checkpoints
+*.m4a
