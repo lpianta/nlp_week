@@ -5,3 +5,5 @@ __pycache__
 *.pth
 .ipynb_checkpoints
 *.m4a
+*.mp3
+models/

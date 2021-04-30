@@ -1,0 +1,42 @@
+body {
+  background-color: #222;
+}
+
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+
+.title p {
+  padding: 20px;
+  color: aliceblue;
+}
+
+.form {
+  text-align: center;
+  color: aliceblue;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 1px whitesmoke;
+  padding: 20px;
+  max-width: 50%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(235, 229, 229, 0.2);
+  transition: 0.3s;
+  background-color: black;
+}
+
+.content:hover {
+  box-shadow: 0 8px 16px 0 rgba(235, 229, 229, 0.2);
+}
+
+.transcript {
+  text-align: center;
+  color: aliceblue;
+  padding: 50px;
+}

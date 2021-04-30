@@ -1,10 +1,15 @@
 {% extends "base.html" %} {% block content %}
-<h1>Audio Transcription</h1>
+<div class="content">
+  <div class="title">
+    <h1>Audio Transcription</h1>
 
-<p>Please upload an audio file (maximum 2 mins)</p>
-
-<form action="/file_upload" method="post" enctype="multipart/form-data">
-  <input type="file" id="myfile" name="file_1" />
-  <input class="" type="submit" />
-</form>
+    <p>Please upload an audio file</p>
+  </div>
+  <div class="form">
+    <form action="/file_upload" method="post" enctype="multipart/form-data">
+      <input type="file" id="myfile" name="file_1" />
+      <input class="" type="submit" />
+    </form>
+  </div>
+</div>
 {% endblock content %}
